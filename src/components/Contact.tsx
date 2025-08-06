@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, Linkedin, Github, Globe } from 'lucide-react';
-import { GraduationCap, MapPin, Calendar, Award } from 'lucide-react';
+import { Mail, Linkedin, Github } from 'lucide-react';
 
 const About = () => {
 

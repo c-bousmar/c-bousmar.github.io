@@ -2,12 +2,12 @@ import { motion } from 'framer-motion';
 import { ArrowDown, Mail, Linkedin, Github } from 'lucide-react';
 
 const Hero = () => {
-  const scrollToAbout = () => {
-    const element = document.getElementById('about');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+  // const scrollToAbout = () => {
+  //   const element = document.getElementById('about');
+  //   if (element) {
+  //     element.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  // };
 
   const scrollToMore = () => {
     const element = document.getElementById('more');
@@ -16,12 +16,12 @@ const Hero = () => {
     }
   };
 
-  const scrollToProjects = () => {
-    const element = document.getElementById('projects');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+  // const scrollToProjects = () => {
+  //   const element = document.getElementById('projects');
+  //   if (element) {
+  //     element.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  // };
 
   const scrollToContact = () => {
     const element = document.getElementById('contact');
