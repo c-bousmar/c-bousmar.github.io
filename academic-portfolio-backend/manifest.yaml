@@ -1,0 +1,99 @@
+name: Academic Portfolio Backend 🎓
+
+entities:
+  Project 🔬:
+    properties:
+      - title
+      - description
+      - year
+      - status
+      - technologies
+      - github
+      - report
+      - image
+      - featured
+    belongsTo:
+      - Category
+
+  Publication 📚:
+    properties:
+      - title
+      - authors
+      - journal
+      - year
+      - doi
+      - abstract
+      - pdf
+      - code
+      - citations
+      - featured
+    belongsTo:
+      - Category
+
+  Talk 🎤:
+    properties:
+      - title
+      - event
+      - location
+      - date
+      - type
+      - description
+      - slides
+      - video
+      - audience
+      - featured
+    belongsTo:
+      - Category
+
+  Category 📂:
+    properties:
+      - name
+      - description
+      - slug
+
+  Profile 👤:
+    properties:
+      - name
+      - title
+      - email
+      - phone
+      - location
+      - linkedin
+      - github
+      - website
+      - bio
+      - avatar
+
+  Education 🎓:
+    properties:
+      - degree
+      - institution
+      - year
+      - gpa
+      - description
+
+  Experience 💼:
+    properties:
+      - title
+      - institution
+      - period
+      - description
+
+  Skill 🛠️:
+    properties:
+      - name
+      - category
+      - level
+
+  Award 🏆:
+    properties:
+      - title
+      - organization
+      - year
+      - description
+
+  SocialLink 🔗:
+    properties:
+      - platform
+      - url
+      - icon 

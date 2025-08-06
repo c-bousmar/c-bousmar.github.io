@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .gradient-text {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Enhanced markdown styling */
+  .prose-project {
+    @apply text-gray-600 leading-relaxed;
+  }
+  
+  .prose-project h3 {
+    @apply font-semibold text-gray-900 mt-4 mb-2 text-base;
+  }
+  
+  .prose-project h4 {
+    @apply font-medium text-gray-800 mt-3 mb-1 text-sm;
+  }
+  
+  .prose-project p {
+    @apply mb-3 text-sm leading-relaxed;
+  }
+  
+  .prose-project strong {
+    @apply font-semibold text-gray-900;
+  }
+  
+  .prose-project ul {
+    @apply list-disc list-inside mb-3 space-y-1;
+  }
+  
+  .prose-project ol {
+    @apply list-decimal list-inside mb-3 space-y-1;
+  }
+  
+  .prose-project li {
+    @apply text-sm leading-relaxed;
+  }
+  
+  .prose-project a {
+    @apply text-blue-600 hover:text-blue-700 underline font-medium transition-colors duration-200;
+  }
+  
+  .prose-project blockquote {
+    @apply border-l-4 border-blue-200 pl-4 italic text-gray-600 mb-3;
+  }
+  
+  .prose-project code {
+    @apply bg-gray-100 px-1 py-0.5 rounded text-sm font-mono;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
