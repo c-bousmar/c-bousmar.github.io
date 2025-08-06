@@ -4,5 +4,9 @@ import react from '@vitejs/plugin-react-swc'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/personal_academic_portfolio/',
+  base: 'https://c-bousmar.github.io',
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+  },
 })
