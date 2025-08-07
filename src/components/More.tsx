@@ -29,7 +29,7 @@ const About = () => {
           className="text-center mb-16"
         >
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-          I am a M.Sc. student of Computer Science at UCLouvain
+          I am a M.Sc. student of Computer Science at
             <a href="https://uclouvain.be/en/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer"
               > UCLouvain 
             </a> and a Graduate Research Assistant at
@@ -38,26 +38,26 @@ const About = () => {
             </a> with a focus on machine learning and computer vision.
           </p>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-          Specifically, I work on a modular end-to-end vision tracking framework, under supervision of
+          Specifically, I work on a modular end-to-end vision tracking framework, under the supervision of
             <a href="https://scholar.google.ca/citations?user=xb3Zc3cAAAAJ&hl=en" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer"
                 > Prof. C. de Vleeschouwer 
-            </a>, and I am pioneering recommander systems for general game playing systems while investigating the acquisition of expert knowledge through game-specific language descriptors, under supervision of
+            </a>, and I am pioneering recommander systems for general game playing systems while investigating the acquisition of expert knowledge through game-specific language descriptors, under the supervision of
             <a href="https://scholar.google.fr/citations?user=MgwAnUIAAAAJ&hl=en" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer"
                 > Prof. E. Piette
             </a>.
           </p>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-          Additionally, I am a Visiting Graduate Researcher at 
-          <a href="https://visual.ee.ucla.edu/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer"
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
+            Additionaly, I am excited to share that I will soon begin a position as a Visiting Graduate Researcher with the 
+            <a href="https://visual.ee.ucla.edu/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer"
               > Visual Machines Group 
-            </a>,
-          <a href="https://www.ucla.edu/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer"
+            </a> at
+            <a href="https://www.ucla.edu/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer"
               > UCLA 
-            </a> where I investigate physic-based and self-improving VLMs under supervision of
-          <a href="https://scholar.google.com/citations?hl=en&user=UMzWJikAAAAJ" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer"
-                > Prof. A. Kadambi
+            </a>, where I will investigate physics-based and self-improving VLMs under the supervision of
+            <a href="https://scholar.google.com/citations?hl=en&user=UMzWJikAAAAJ" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer"
+              > Prof. A. Kadambi
             </a>.
-          </p>
+            </p>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
           I plan on pursuing a PhD to further explore these domains. My goal is to contribute to the theoretical and practical advancements of science, to improve quality of life and preserve the environment.
           </p>
@@ -72,7 +72,7 @@ const About = () => {
           >
             <div className="flex items-center space-x-3">
                 <MapPin className="text-blue-600" size={20} />
-                <span className="text-gray-700">Based in Brussels & Los Angeles</span>
+                <span className="text-gray-700">Based in Brussels</span>
             </div>
             <div className='mt-8'>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Research Interests</h3>
