@@ -7,11 +7,10 @@ const CV = () => {
     title: "M.Sc. in Computer Science",
     emails: [
       "cyril.bousmar@student.uclouvain.be",
-      "cyril.bousmar@gmail.com"
+      "cyril.bousmar@etik.com"
     ],
     phones: [
       "+32 476/33.67.47",
-      "+1 (213) 823-5931 (RCS only)"
     ],
     location: "Brussels, Belgium",
     linkedin: "https://linkedin.com/in/cyril-bousmar",
@@ -27,10 +26,10 @@ const CV = () => {
       group: "Visual Machines Group",
       groupUrl: "https://visual.ee.ucla.edu/",
       place: "Los Angeles, CA",
-      period: "08/2025 - Present",
+      period: "08/2025 - 11/2025",
       professor: "Prof. A. Kadambi",
       professorUrl: "https://scholar.google.com/citations?user=Qv7v5JwAAAAJ&hl=en",
-      description: `• Investigate physic-based and self-improving VLMs under supervision of <a href="https://scholar.google.com/citations?user=Qv7v5JwAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Prof. A. Kadambi</a>`
+      description: `•	Designed and implemented multi-object tracking (MOT) evaluation scenarios to benchmark vision capabilities of multimodal large language models (MLLMs)<br/>•	Reproduced and validated a diffusion-based 3D scene reconstruction pipeline, ensuring experimental fidelity and highlighting strengths and limitations of the approach.`
     },
     {
       title: "Graduate Research Assistant",
@@ -39,10 +38,10 @@ const CV = () => {
       group: "ICTEAM",
       groupUrl: "https://www.uclouvain.be/en/research-institutes/icteam",
       place: "Louvain-la-Neuve, Belgium",
-      period: "01/2025 - Present",
+      period: "01/2025 - 07/2025",
       professor: "Prof. C. de Vleeschouwer",
       professorUrl: "https://scholar.google.com/citations?user=6v4v5JwAAAAJ&hl=en",
-      description: `• Collaborate on modular end-to-end vision tracking framework under supervision of <a href="https://scholar.google.com/citations?user=6v4v5JwAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Prof. C. de Vleeschouwer</a>`
+      description: `• Collaborate on state-of-the-art modular end-to-end vision tracking framework`
     },
     {
       title: "Graduate Research Assistant",
@@ -51,10 +50,10 @@ const CV = () => {
       group: "ICTEAM",
       groupUrl: "https://www.uclouvain.be/en/research-institutes/icteam",
       place: "Louvain-la-Neuve, Belgium",
-      period: "09/2024 - Present",
+      period: "09/2024 - 07/2025",
       professor: "Prof. E. Piette",
       professorUrl: "https://scholar.google.com/citations?user=7v4v5JwAAAAJ&hl=en",
-      description: `• Pioneer recommender system for general game playing systems under supervision of <a href="https://scholar.google.com/citations?user=7v4v5JwAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Prof. E. Piette</a><br/>• Investigate game specific language descriptors utility against expert knowledge for classification and recommendation`
+      description: `• Pioneer recommender system for general game playing systems<br/>• Investigate game specific language descriptors utility against expert knowledge for classification and recommendation`
     },
     {
       title: "Software Engineer",
