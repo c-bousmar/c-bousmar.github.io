@@ -11,6 +11,7 @@ const CV = () => {
     ],
     phones: [
       "+32 476/33.67.47",
+      "+1 (310) 981-3584,
     ],
     location: "Brussels, Belgium",
     linkedin: "https://linkedin.com/in/cyril-bousmar",
