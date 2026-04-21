@@ -51,7 +51,7 @@ const About = () => {
           +32 476/33.67.47
           </p>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-4">
-          +1 (213) 823-5931 (RCS only)
+          +1 (310) 981-3584
           </p>
         </motion.div>
       </div>
