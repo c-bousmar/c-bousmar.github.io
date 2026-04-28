@@ -233,7 +233,7 @@ Department, Office of Student Life, Teaching Staff, and Administration`
               </div>
               
               {/* Locations - Stacked */}
-              <div className="flex items-center space-x-1">
+              <div className="flex items-start space-x-1">
                 <MapPin size={16} className="mt-0.5" />
                 <div className="flex flex-col items-start">
                   {personalInfo.locations.map((location, index) => (
