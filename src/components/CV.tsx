@@ -251,7 +251,7 @@ Department, Office of Student Life, Teaching Staff, and Administration`
           {/* Download Button */}
           <div className="text-center mb-8">
             <a
-              href="/cyril_bousmar_resume.pdf"
+              href="/bousmar_cyril_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-200"
