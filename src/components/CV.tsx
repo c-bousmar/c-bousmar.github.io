@@ -10,10 +10,13 @@ const CV = () => {
       "cyril.bousmar@etik.com"
     ],
     phones: [
+      "+1 (310) 981-3584",
       "+32 476/33.67.47",
-      "+1 (310) 981-3584,
     ],
-    location: "Brussels, Belgium",
+    locations: [
+      "Los Angeles - CA, USA",
+      "Brussels, Belgium",
+    ],
     linkedin: "https://linkedin.com/in/cyril-bousmar",
     github: "https://github.com/c-bousmar",
     website: "https://c-bousmar.github.io/"
@@ -229,9 +232,16 @@ Department, Office of Student Life, Teaching Staff, and Administration`
                 </div>
               </div>
               
+              {/* Locations - Stacked */}
               <div className="flex items-center space-x-1">
-                <MapPin size={16} />
-                <span>{personalInfo.location}</span>
+                <MapPin size={16} className="mt-0.5" />
+                <div className="flex flex-col items-start">
+                  {personalInfo.locations.map((location, index) => (
+                    <span key={`location-${index}`} className="text-left">
+                      {location}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
 
