@@ -39,11 +39,11 @@ const About = () => {
           </div>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-4">
           <a href="mailto:cyril.bousmar@etik.com" className="hover:text-blue-600 transition-colors duration-200"
-              >cyril.bousmar@etik.com</a></p>
+              >cyril.bousmar@etik.com</a>
           <a href="mailto:cyril.bousmar@student.uclouvain.be" className="hover:text-blue-600 transition-colors duration-200"
-                >cyril.bousmar@student.uclouvain.be</a></p>
+                >cyril.bousmar@student.uclouvain.be</a>
           <a href="tel:+13109813584" className="hover:text-blue-600 transition-colors duration-200"
-                >+1 (310) 981-3584</a></p>
+                >+1 (310) 981-3584</a>
           <a href="tel:+32476336747" className="hover:text-blue-600 transition-colors duration-200"
                 >+32 476/33.67.47</a></p>
         </motion.div>
